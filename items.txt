@@ -1,0 +1,99 @@
+Apple,10
+Banana,5
+Orange,8
+Grapes,12
+Mango,15
+Pineapple,20
+Strawberry,18
+Blueberry,22
+Papaya,17
+Watermelon,25
+Kiwi,19
+Guava,14
+Litchi,11
+Pomegranate,21
+Dragonfruit,30
+Chikoo,9
+Pear,13
+Plum,16
+Cherry,26
+Raspberry,27
+Peach,24
+Apricot,28
+Fig,23
+Date,20
+Coconut,15
+Lemon,6
+Avocado,31
+Cucumber,7
+Tomato,4
+Onion,3
+Potato,2
+Carrot,6
+Beetroot,9
+Radish,4
+Turnip,5
+Pumpkin,14
+Bottle Gourd,8
+Bitter Gourd,10
+Zucchini,13
+Broccoli,18
+Cauliflower,16
+Spinach,7
+Cabbage,6
+Brinjal,11
+Okra,9
+Corn,12
+Peas,10
+Garlic,3
+Ginger,5
+Chili,4
+Mushroom,15
+Paneer,30
+Cheese,35
+Milk,22
+Curd,18
+Butter,28
+Bread,20
+Bun,10
+Biscuit,12
+Cake,40
+Pastry,32
+Chocolate,25
+Candy,8
+Ice Cream,38
+Juice,16
+Soda,14
+Water Bottle,6
+Green Tea,9
+Coffee,27
+Tea,19
+Sugar,11
+Salt,2
+Rice,35
+Wheat Flour,30
+Maida,25
+Sooji,20
+Poha,15
+Oats,22
+Cornflakes,24
+Honey,26
+Jam,19
+Peanut Butter,28
+Ketchup,12
+Mayonnaise,17
+Mustard Sauce,16
+Soy Sauce,14
+Vinegar,10
+Cooking Oil,40
+Olive Oil,50
+Sunflower Oil,38
+Ghee,45
+Dal,33
+Chana,27
+Rajma,29
+Kabuli Chana,31
+Moong Dal,32
+Masoor Dal,30
+Toor Dal,34
+Total,100

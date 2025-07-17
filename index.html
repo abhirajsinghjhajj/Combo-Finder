@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ComboFinder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ComboFinder</h1>
+  <p class="subtitle">Find. Combine. Optimize.</p>
+
+  <div class="form-box">
+    <form id="form">
+      <div class="form-row">
+        <label for="file">File Name</label>
+        <input type="file" id="file" required>
+        <span class="tick" id="tick">✔️</span>
+      </div>
+
+      <div class="form-row">
+        <label for="amount">Total Amount</label>
+        <input type="number" id="amount" placeholder="Enter Amount" oninput="hidePlaceholder()" required>
+      </div>
+      
+      <div class="form-row">
+        <label>Mode:</label>
+        <div class="radio-group">
+          <input type="radio" id="without" name="mode" value="without" checked onchange="toggleMode()">
+          <label for="without">Without Limits</label>
+          <input type="radio" id="with" name="mode" value="with" onchange="toggleMode()">
+          <label for="with">With Limits</label>
+        </div>
+      </div>
+      
+      <div class="limits" id="limitsBox" style="display: none;">
+        <div class="limit-group">
+          <label for="lower">Lower Limit</label>
+          <input type="number" id="lower">
+        </div>
+        <div class="limit-group">
+          <label for="upper">Upper Limit</label>
+          <input type="number" id="upper">
+        </div>
+      </div>
+
+      <div class="submit-button">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+  <!-- point directly to your static JS -->
+  <script src="index.js"></script>
+</body>
+</html>

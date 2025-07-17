@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+h1 {
+  font-size: 3em;
+  margin-bottom: 5px;
+}
+.subtitle {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 30px;
+}
+.form-box {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+}
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+.form-row label {
+  flex: 1;
+  font-weight: bold;
+}
+.form-row input[type="file"],
+.form-row input[type="number"] {
+  flex: 2;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+.form-row input[type="file"]::file-selector-button {
+  padding: 8px 12px;
+  border: none;
+  background: #3498db;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.tick {
+  font-size: 24px;
+  color: green;
+  display: none;
+}
+.limits {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.limit-group {
+  flex: 1;
+}
+.submit-button {
+  text-align: center;
+}
+.submit-button button {
+  padding: 12px 30px;
+  font-size: 16px;
+  background: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.results {
+  margin-top: 30px;
+}
+.combo {
+  background: #eef;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.toggle-buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.toggle-buttons label {
+  font-weight: bold;
+  cursor: pointer;
+}
