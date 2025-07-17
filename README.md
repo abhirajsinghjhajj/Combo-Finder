@@ -4,6 +4,10 @@ A **100% client-side** web application that lets users upload a CSV file of item
 
 ---
 
+## 🔗 Live Demo
+
+👉 [Click here to try it out](https://heartfelt-tulumba-b867b4.netlify.app/)
+
 ## 🚀 Features
 
 * **File Upload**: Read a CSV file containing `Item,Price` pairs.
